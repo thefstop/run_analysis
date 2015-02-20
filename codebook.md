@@ -40,7 +40,7 @@ These signals were used to estimate variables of the feature vector for each pat
 
 ```
 
-###For each observation, the data shown represents the mean for that variable for all instances of that  Subject and Activity.
+###For each observation, the data shown represents the mean for that variable for all instances of that  Subject and Activity. The units for each variable are described above. 
 
 
 ####Variable List                   
