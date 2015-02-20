@@ -1,8 +1,10 @@
 run_analysis <- function() {
     
   library(dplyr)
+  
   ##Acts are the possible activities. Used as labels for factors
-  acts<- c("Walking", "Walking_Upstairs", "Walking_Downstairs", "Sitting", "Standing", "Laying")
+  acts <-read.table("Dataset/activity_labels.txt", sep=" ")
+  acts <-as.vector(acts[,2])
   
   #Load test data. y_test and y_train are loaded as a vector so that it can be
   #coneverted to a factor, using the 'acts' variables as label names
@@ -47,7 +49,7 @@ run_analysis <- function() {
   avg_db <- group_by(trim_db, Subject_ID, Activity)
   result_db<-summarise_each(avg_db, funs(mean))
   
-  #View(result_db)
+  View(result_db)
   #Uncoment previous line for testing
   
   #Output the tidy results for submission 
