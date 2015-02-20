@@ -9,7 +9,7 @@ This markdown document describes all variables present in the tidy dataset gener
 
 
 
-####Subject_ID refers to the partiipant (numbered 1 - 30) who collected the data. Activity represents the activity the ####participant was performing when the data were collected.  The different activities are "Walking", "Walking_Upstairs", ####"Walking_Downstairs", "Sitting", "Standing", "Laying".
+####Subject_ID refers to the partiipant (numbered 1 - 30) who collected the data. Activity represents the activity the participant was performing when the data were collected.  The different activities are "Walking", "Walking_Upstairs", "Walking_Downstairs", "Sitting", "Standing", "Laying".
 
 For the remainder of the variables, they represent the accelerometer and gyroscope data collected by the participant's cell phone.  The following description is pulled from the original dataset:
 
